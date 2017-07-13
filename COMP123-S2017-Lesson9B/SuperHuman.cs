@@ -7,7 +7,7 @@ using System.Text;
  * Name: Aron Ly
  * Date: July 13, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.5 - Added the overriden ToString method
+ * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human class
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -97,7 +97,7 @@ namespace COMP123_S2017_Lesson9B
 
         public override void DisplaySkills()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Not implemented");
         }
     }
 }
